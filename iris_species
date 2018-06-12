@@ -1,1 +1,23 @@
 --
+
+#test
+
+library(tidyverse)
+library(magrittr)
+
+iris <- read.csv('C:/Users/106509/Documents/analytics_vidhya/data_sets/Iris.csv')
+as.tibble(iris)
+
+#I want to check out the variables
+head(iris)
+dim(iris)
+#6 variables & 150 observations
+
+#I want to understand the basic stats quickly
+summary(iris)
+plot(iris)
+
+hist(iris_data$SepalLengthCm, col = "skyblue", xlab = "Sepal Lenght", main = 
+       "Histogram of Sepal Lenght of Iris Data")
+
+#boxplot
